@@ -86,32 +86,67 @@ ul:hover {
     width: 40%;
 }
 
-.text{
-    font-family: Helvetica, sans-serif;
-}
-
-#yard{
+.headTxt{
+    font-family:"Amatic SC", sans-serif;
     text-align: center;
+    font-size:3em;
+}
+#cont {
+    font-family: "Josefin Sans", sans-serif;
+    text-align:center;
 }
 
-#flagText{
+.pictxt {
+    padding:2rem;
+    font-size:2em;
+    line-height: 130%;
+}
+#para1{
+    background-position: unset;
+    background-size:cover;
+    background-attachment:fixed;
     background-image: 
       linear-gradient(
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)
       ),
-      url(images/yarde.JPG);
-      color:white;
-      height:80vh;
-      width:100%;
-      margin-left:auto;
-      margin-right:auto;
-      
+      url(images/yarde.JPG)
+    ;
+    color:white;
+    height:80vh;
+    width:100%;
 }
 
-.parallax{
+#para2{
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(images/sunrise.JPG)
+    ;
+    color:white;
+    height:80vh;
+    width:100%;
+}
+
+#para3{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment:fixed;
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url(images/guitarPlants.jpg)
+    ;
+    color:white;
+    height:80vh;
+    width:100%;
 }
