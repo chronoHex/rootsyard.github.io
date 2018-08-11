@@ -93,7 +93,7 @@ ul:hover {
 }
 #cont {
     font-family: "Josefin Sans", sans-serif;
-    text-align:center;
+    text-align:left;
 }
 
 .pictxt {
@@ -124,8 +124,8 @@ ul:hover {
     background-repeat: repeat-x;
     background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
         ),
         url(images/sunrise.JPG)
     ;
@@ -141,12 +141,38 @@ ul:hover {
     background-repeat: no-repeat;
     background-image: 
         linear-gradient(
-            rgba(0, 0, 0, 0.3),
+            rgba(255, 255, 255, 0.1),
             rgba(0, 0, 0, 0.3)
         ),
-        url(images/guitarPlants.jpg)
+        url(images/treeSky.JPG)
     ;
     color:white;
     height:80vh;
     width:100%;
+}
+/*Scroll things */
+.scButton{
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    border-radius: 100%;
+    background-color: #b8b8b8;
+    height:100px;
+    width:100px;
+    font-family:"Amatic SC", sans-serif;
+    text-align:center;
+    font-size: 3em;
+    transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5 ease;
+    -moz-transition: background-color 0.5 ease;
+    -webkit-transition: background-color 0.5 ease;
+}
+.scButton:hover{
+    background-color: #535353;
+}
+
+.delice {
+    padding:0;
+    margin:0;
+    
 }
