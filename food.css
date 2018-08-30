@@ -96,9 +96,21 @@ p {
 }
 
 .stdTxt {
-    padding: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
     line-height: 130%;
 }
+
+img {
+    height: 80%;
+    width: 80%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
 /*
 parallax scrolling things below**
 #para1{
