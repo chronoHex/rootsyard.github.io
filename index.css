@@ -30,6 +30,7 @@ body{
 }
 #menuholder{
     text-align: center;
+    font-size:1em;
 }
 
 .menu {
@@ -61,13 +62,15 @@ a {
     font-weight: bold;
 }
 
+a:visited {
+    color: #006b3F;
+}
+
 a:hover {
     color: red;
 }
 
-a:visited {
-    color: green;
-}
+
 
 ul:hover {
     color: red;
