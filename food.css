@@ -9,6 +9,15 @@ body{
 *{
     padding:0;
 }
+
+img {
+    
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align: auto;
+}
+
 #hold{
     background-color: #000000;
     width:100%;
@@ -72,7 +81,18 @@ a:visited {
 ul:hover {
     color: red;
 }
-
+.mySlides{
+    height: 80%;
+    width: 80%;
+}
+.sndSld{
+    height:80%;
+    width:80%;
+}
+.thSld{
+    height: 80%;
+    width: 80%;
+}
 #green {
     width: 100%;
     background-color: #006b3F;
@@ -100,15 +120,10 @@ p {
     padding-right: 3rem;
     padding-bottom: 3rem;
     line-height: 130%;
+    font-size: 1.15rem;
 }
 
-img {
-    height: 80%;
-    width: 80%;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
+
 
 
 /*
