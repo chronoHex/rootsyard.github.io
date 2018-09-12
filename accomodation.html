@@ -31,10 +31,10 @@
     <h1 style="font-size:3em; color:#CE1126;">Accomodation</h1>
     <h3 >We offer a variety of Accommodation to suit all budgets.</h3>
     <h3>From Self-Contained Chalets, Cabins or a larger Family Room, to a Quirky Dormitory with shared shower/washroom.</h3>
-    <img src="images/food/coffee1.JPG" class="sldO"/>
-    <img src="images/food/cStone2.JPG" class="sldO"/>
-    <img src="images/food/Cstone3.jpg" class="sldO"/>
-    <img src="images/food/cStone4.JPG" class="sldO"/>
+    <img src="images/acc/cStone1.JPG" class="sldO"/>
+    <img src="images/acc/cStone2.JPG" class="sldO"/>
+    <img src="images/acc/Cstone3.jpg" class="sldO"/>
+    <img src="images/acc/cStone4.JPG" class="sldO"/>
     <script>
         var slideIndex = 0;
         carousel();
@@ -51,5 +51,86 @@
             setTimeout(carousel, 4000); // Change image every 2 seconds
         }
     </script>
+    <em><p>Image of our Cornerstore House, each room is a double- self-contained chalet.</p></em>em>
+    <p>Simple yet Comfortable, Natural and Stylish, all Rooms have beds with Mosquito-nets & Fans. Cleanliness is maintained to a High Standard.</p>
+
+    <img src="images/acc/yard1.JPG" class="yrdP">
+    <img src="images/acc/yard2.JPG" class="yrdP">
+    <img src="images/acc/yard3.JPG" class="yrdP">
+    <script>
+        var slideIndx = 0;
+        cycle();
+
+        function cycle() {
+            var j;
+            var y = document.getElementsByClassName("yrdP");
+            for (j = 0; j < y.length; j++) {
+            y[j].style.display = "none"; 
+            }
+            slideIndx++;
+            if (slideIndx > y.length) {slideIndx = 1} 
+            y[slideIndx-1].style.display = "block"; 
+            setTimeout(cycle, 4000); // Change image every 2 seconds
+        }
+    </script>
+    <em><p>Image of the yard as a campsight</p></em>
+    <p>Roots Yard also has a Campsite where you can bring your own Tent and we Welcome Over-Landers. We are Happy for you to cook your own Meals in our Yard with your own cooking utensils, however, we do Respectfully request that No MEAT or FISH is brought into the Yard. As we advertise ourselves as a VEGETARIAN Restaurant, we do accept eggs & cow's milk in your own cooking, but we ourselves serve Strictly VEGAN Food & Drinks. Many Thanks.</p>
+    
+    <img src="images/acc/fHouse1.JPG" class="hPic"/>
+    <img src="images/acc/fHouse2.JPG" class="hPic"/>
+    <img src="images/acc/fHouse3.JPG" class="hPic"/>
+
+    <script>
+            var slideInd = 0;
+            flow();
+    
+            function flow() {
+                var k;
+                var s = document.getElementsByClassName("hPic");
+                for (k = 0; k < s.length; k++) {
+                s[k].style.display = "none"; 
+                }
+                slideInd++;
+                if (slideInd > s.length) {slideInd = 1} 
+                s[slideInd-1].style.display = "block"; 
+                setTimeout(flow, 4000); // Change image every 2 seconds
+            }
+            
+        </script>
+        <em><p>Images of Axi To, our wooden family house. (sleeps 4-6 people, self-contained)</p></em>
+        <p>Roots Yard is firm in the use of Traditional, Local, Natural Building Materials. We will not compromise and use imported tiles, even when this involves many difficulties of locating, acquiring and transporting, we do not bend. We know that this will not only benefit Ghana more than imported materials, but the natural Terracotta is organic and sustainable with the production causing minimum pollutants to the environment. There is also less Transportation reducing Our overall 'Carbon Footprint'. We use mud-brick instead of cement-block. Our local timber is being replenished by the Tree-planting projects we are helping to implement. We feel our buildings blend into the environment physically and aesthetically.</p>
+        
+        <img src="images/acc/dorm1.JPG" class="dPic" />
+        <img src="images/acc/dorm2.JPG" class="dPic" />
+        <img src="images/acc/dorm3.JPG" class="dPic" />
+
+        <script>
+                var slideId = 0;
+                flow();
+        
+                function flow() {
+                    var f;
+                    var b = document.getElementsByClassName("dPic");
+                    for (f = 0; f < b.length; f++) {
+                    b[f].style.display = "none"; 
+                    }
+                    slideId++;
+                    if (slideId > b.length) {slideId = 1} 
+                    b[slideId-1].style.display = "block"; 
+                    setTimeout(flow, 4000); // Change image every 2 seconds
+                }
+                
+        </script>
+        <em><p>Images of the dormitory</p></em>
+        <h1 id="prices">Prices</h1>
+        <h2>Cornerstone House (Double, Self-Contained)</h2>
+        <p>100GHC / night</p>
+        <h2>Ati Xo Wooden House (Double x1, Single x2, self-contained)</h2>
+        <p>180GHC / night (option to add up to 2 additional mattresses for 30GHC each, sleeping up to 6 people)</p>
+        <h2>Dormitory(Bed & Shared Bath)</h2>
+        <p>30GHC / night</p>
+        <h2>Camping/Overlanders(Own Tent)</h2>
+        <p>30GHC / night</p>
+
 </body>
 </html>
