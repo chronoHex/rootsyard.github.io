@@ -111,6 +111,7 @@ ul:hover {
 p {
     font-family: "Josefin Sans", sans-serif;
     text-align:center;
+    color: white;
 }
 
 .stdTxt {
@@ -128,4 +129,10 @@ p {
 
 #CB{
     color: #660000;
+}
+
+.snatch {
+    background-color: black;
+    width: 100%;
+    
 }
