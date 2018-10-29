@@ -82,74 +82,50 @@ ul:hover {
     height: 10px;
 }
 
-#wav {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width: 40%;
+html body {
+    background-color: rgb(251, 209, 23);
 }
 
-.headTxt{
-    font-family:"Amatic SC", sans-serif;
-    text-align: center;
-    font-size:3em;
+body{
+    margin:0;
+    padding:0;
 }
-#cont {
+*{
+    padding:0;
+}
+
+p {
     font-family: "Josefin Sans", sans-serif;
-    text-align:left;
+    text-align:center;
+    line-height:130%;
+    font-size:1em;
 }
 
-.pictxt {
-    padding:2rem;
-    font-size:2em;
-    line-height: 130%;
-}
-#para1{
-    background-position: unset;
-    background-size:cover;
-    background-attachment:fixed;
-    background-image: 
-      linear-gradient(
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
-      url(images/yarde.JPG)
-    ;
-    color:white;
-    height:80vh;
-    width:100%;
+h3{
+    font-family: "Josefin Sans", sans-serif;
+    text-align:center;
 }
 
-#para2{
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: repeat-x;
-    background-image:
-        linear-gradient(
-            rgba(0, 0, 0, 0.2),
-            rgba(0, 0, 0, 0.2)
-        ),
-        url(images/sunrise.JPG)
-    ;
-    color:white;
-    height:80vh;
-    width:100%;
+h1{
+    text-align:center;
+    font-family:"Amatic SC", cursive;
 }
 
-#para3{
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-image: 
-        linear-gradient(
-            rgba(255, 255, 255, 0.1),
-            rgba(0, 0, 0, 0.3)
-        ),
-        url(images/treeSky.JPG)
-    ;
-    color:white;
-    height:80vh;
+h2{
+    text-align:center;
+    font-family: "Josefin Sans"
+}
+
+#hold{
+    background-color: #000000;
     width:100%;
+    padding-bottom:1%;
+    padding-top:1%;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
