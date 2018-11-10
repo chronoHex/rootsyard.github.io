@@ -113,8 +113,9 @@ h1{
 
 h2{
     text-align:center;
-    font-family: "Josefin Sans"
+    font-family: "Josefin Sans", sans-serif;
 }
+
 
 #hold{
     background-color: #000000;

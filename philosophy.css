@@ -4,29 +4,10 @@ html body {
 
 body{
     margin:0;
-    padding:0;
+    padding:0
 }
 *{
-    padding:0;
-}
-
-p {
-    font-family: "Josefin Sans", sans-serif;
-    text-align:center;
-    line-height:130%;
-    font-size:1em;
-}
-h3{
-    font-family: "Josefin Sans", sans-serif;
-    text-align:center;
-}
-h1{
-    text-align:center;
-    font-family:"Amatic SC", cursive;
-}
-h2{
-    text-align:center;
-    font-family: "Josefin Sans"
+    padding:10px;
 }
 #hold{
     background-color: #000000;
@@ -86,13 +67,13 @@ a:visited {
 }
 
 a:hover {
-    color: red;
+    color: #CE1126;
 }
 
 
 
 ul:hover {
-    color: red;
+    color: #CE1126;
 }
 
 #green {
@@ -101,11 +82,68 @@ ul:hover {
     height: 10px;
 }
 
+html body {
+    background-color: rgb(251, 209, 23);
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+*{
+    padding:0;
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    text-align:center;
+    line-height:130%;
+    font-size:1em;
+}
+
+h3{
+    font-family: "Josefin Sans", sans-serif;
+    text-align:center;
+}
+
+h1{
+    text-align:center;
+    font-family:"Amatic SC", cursive;
+}
+
+h2{
+    text-align:center;
+    font-family: "Amatic SC", sans-serif
+}
+
+#hold{
+    background-color: #000000;
+    width:100%;
+    padding-bottom:1%;
+    padding-top:1%;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 img{
-    margin:auto;
+    margin: auto;
+    width: 20%;
+    display:block;
+    image-orientation: from-image
 }
 
-#prices{
-    color:#006b3F
-
+.iBox{
+    text-align: center;
+    display: block
 }
+
+.snatch{
+    display:inline-block;
+    vertical-align:middle;
+}
+
