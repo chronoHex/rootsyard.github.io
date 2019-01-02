@@ -6,9 +6,11 @@ body{
     margin:0;
     padding:0
 }
+
 *{
     padding:0;
 }
+
 #hold{
     background-color: #000000;
     width:100%;
@@ -28,6 +30,7 @@ body{
     height: 10px;
     background-color: #CE1126;
 }
+
 #menuholder{
     text-align: center;
     font-size:1rem;
@@ -93,4 +96,23 @@ ul:hover {
     font-family:"Amatic SC", sans-serif;
     text-align: center;
     font-size:3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Amatic SC", sans-serif;
+    text-align: center
+}
+
+.things {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 10px
+}
+
+p {
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    line-height: 130%;
+    font-size: 1em;
 }
