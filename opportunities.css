@@ -102,7 +102,20 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Amatic SC", sans-serif;
     text-align: center
 }
-
+h1 {
+    font-size: 3.5em;
+    color: #CE1126;
+}
+h2{
+    font-size: 2em;
+    color: #006b3F;
+}
+h3{
+    font-size: 1.75rem
+}
+h4{
+    font-size: 1.5em;
+}
 .things {
     margin-left: auto;
     margin-right: auto;
@@ -122,4 +135,12 @@ img {
     margin-left: auto;
     margin-right: auto;
     display:block
+}
+
+.forest{
+    width: 40%;
+}
+
+.friends{
+    width: 40%;
 }
