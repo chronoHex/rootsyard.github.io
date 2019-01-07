@@ -137,10 +137,6 @@ img {
     display:block
 }
 
-.forest{
-    width: 40%;
-}
-
-.friends{
+.forest, .friends, .gep{
     width: 40%;
 }
