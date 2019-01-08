@@ -12,7 +12,7 @@ body {
 }
 
 *:hover{
-    background-color:#000000;
+    color:#000000;
 }
 
 #hold {
@@ -58,10 +58,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-    .men:visited {
-        text-decoration: none;
-        color: #006b3F;
-    }
+.men:active {
+    text-decoration: none;
+    color: #006b3F;
+}
 
 a {
     color: black;
@@ -69,19 +69,14 @@ a {
     font-weight: bold;
 }
 
-    a:visited {
-        color: #006b3F;
-    }
-
-    a:hover {
-        color: #CE1126;
-    }
-
-
-
-ul:hover {
-    color: #CE1126;
+a:active {
+    color: #006b3F;
 }
+
+a:hover {
+    color: #CE1126
+}
+
 
 #green {
     width: 100%;
@@ -101,7 +96,16 @@ h1 {
     font-size: 2.5em;
     text-align: center
 }
-
+h2{
+    font-family:"Amatic SC", sans-serif;
+    font-size:2em;
+    text-align:center;
+}
+h3{
+    font-family:"Amatic SC", sans-serif;
+    font-size:1.5em;
+    
+}
 .textuals {
     display: block;
     margin-left: auto;
@@ -116,3 +120,23 @@ ul {
 inde{
     margin-left: 2em;
 }
+
+p, li, ul, a {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.dxion {
+    line-height: 1.5em;
+}
+/* style for the google maps slice */
+
+.mapouter{
+    text-align:right;
+    width:40%;
+    }
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+    }

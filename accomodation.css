@@ -75,7 +75,7 @@ h2{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.men:visited {
+.men:active {
     text-decoration: none;
     color: #006b3F;
 }
@@ -86,7 +86,7 @@ a {
     font-weight: bold;
 }
 
-a:visited {
+a:active {
     color: #006b3F;
 }
 
