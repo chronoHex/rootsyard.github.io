@@ -17,21 +17,22 @@
             <img src="images/Logo.jpg" id="logo"/>
         </a>
     </div>
-    <div id="red"></div>
-    <div id="menuHolder">
-        <ul class="menu"></ul>
-            <li class="men"><a href="food.html" class="text">Food & Drinks</a></li>
-            <li class="men"><a href="accomodation.html" class="text">Accomodation</a></li>
-            <li class="men"><a href="tours.html" class="text">Tours & Attractions</a></li>
-            <li class="men"><a href="philosophy.html" class="text">Our Philosophy</a></li>
-            <li class="men"><a href="bbikes.html" class="text">Bamboo Bikes</a></li>
-            <li class="men"><a href="opportunities.html" class="text">Volunteer Opportunities</a></li>
-            <li class="men"><a href="about.html" class="text">Contact Us</a></li>
-        </ul>
+    <div class="outer-menu">
+        <div class="topnav" id="myTopnav">
+            <div id="red"></div>
+            <a href="food.html" class="active">Food & Drinks</a>
+            <a href="accomodation.html">Accomodation</a>
+            <a href="tours.html">Tours & Attractions</a>
+            <a href="philosophy.html">Our Philosophy</a>
+            <a href="bbikes.html">Bamboo Bikes</a>
+            <a href="opportunities.html">Volunteer Opportunities</a>
+            <a href="about.html">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+            <div id="green"></div>
+        </div>
     </div>
-    <div id="green"></div>
-    <!-- <h3>Roots Bamboo Bikes</h3> -->
     
+    <script src="menuhandler.js"></script>
     <div class="thingues">
         <img src="images/bbikes/Business Card.png" class="imague" id="headerimage"/>
         <p> Our Bamboo Bikes are handmade by a master Bamboo Bike Craftsman with 10 years of Bamboo Bike building experience. Each Frame is an individual work of Art, made from Natural & Sustainable Materials and Crafted with care. We conduct rigorous stress & strength tests on each completed frame and offer a 2-year guarantee for the Bamboo Frame. </p>
@@ -53,6 +54,7 @@
         <p>The cost of the parts in Ghana for a complete bike $180, in addition to the cost of the Bamboo Frame the total cost of a complete bike will be $380.</p>
         <img src="images/bbikes/finished_wood.jpg" class = "imague" style="margin-bottom: 2.5%"/>
         <!-- buttons below-->
+        <p>Feel Free to Check out our Facebook and Instagram Pages!</p>
         <div id="buttons">
             <a href="https://www.facebook.com/RootsBambooBikes/" class="fa fa-facebook"></a>
             <a href="https://www.instagram.com/rootsbamboobikes/?hl=en" class="fa fa-instagram"></a>

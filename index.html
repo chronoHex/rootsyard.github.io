@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="images/icon.png"/>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div id="hold">
@@ -17,19 +18,21 @@
             <img src="images/Logo.jpg" id="logo"/>
         </a>
     </div>
-    <div id="red"></div>
-    <div id="menuHolder">
-        <ul class="menu"></ul>
-            <li class="men"><a href="food.html" class="text">Food & Drinks</a></li>
-            <li class="men"><a href="accomodation.html" class="text">Accomodation</a></li>
-            <li class="men"><a href="tours.html" class="text">Tours & Attractions</a></li>
-            <li class="men"><a href="philosophy.html" class="text">Our Philosophy</a></li>
-            <li class="men"><a href="bbikes.html" class="text">Bamboo Bikes</a></li>
-            <li class="men"><a href="opportunities.html" class="text">Volunteer Opportunities</a></li>
-            <li class="men"><a href="about.html" class="text">Contact Us</a></li>
-        </ul>
-    </div>
-    <div id="green"></div>
+    <div class="outer-menu">
+            <div class="topnav" id="myTopnav">
+                <div id="red"></div>
+                <a href="food.html" class="active">Food & Drinks</a>
+                <a href="accomodation.html">Accomodation</a>
+                <a href="tours.html">Tours & Attractions</a>
+                <a href="philosophy.html">Our Philosophy</a>
+                <a href="bbikes.html">Bamboo Bikes</a>
+                <a href="opportunities.html">Volunteer Opportunities</a>
+                <a href="about.html">Contact Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a>
+                <div id="green"></div>
+            </div>
+        </div>
+        <script src="menuhandler.js"></script>
     <div id="cont">
         <h1 class="headTxt">The yard</h1>
         <div id="para1">
