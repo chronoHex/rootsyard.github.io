@@ -11,6 +11,10 @@ body {
     padding: 0;
 }
 
+*:hover{
+    background-color:#000000;
+}
+
 #hold {
     background-color: #000000;
     width: 100%;
@@ -90,4 +94,25 @@ ul:hover {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+}
+
+h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 2.5em;
+    text-align: center
+}
+
+.textuals {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+inde{
+    margin-left: 2em;
 }
